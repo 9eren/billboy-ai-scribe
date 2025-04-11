@@ -52,7 +52,7 @@ const Features: React.FC = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="bg-white p-8 rounded-xl shadow-md border border-purple-100 hover:border-purple-300 hover:shadow-lg transition-all duration-300 animate-scale-in"
+              className="bg-white p-8 rounded-xl shadow-md border border-purple-100 hover:border-purple-300 hover:shadow-lg transition-all duration-300 animate-scale-in hover:scale-105 transform-gpu"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="bg-purple-100 rounded-lg p-3 inline-block mb-4">

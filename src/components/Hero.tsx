@@ -32,10 +32,10 @@ const Hero: React.FC = () => {
             </div>
             <div className="flex items-center text-sm text-gray-600">
               <span className="inline-block h-1 w-1 rounded-full bg-purple-500 mr-1"></span>
-              No credit card required
+              100% Free - No credit card required
               <span className="mx-3">•</span>
               <span className="inline-block h-1 w-1 rounded-full bg-purple-500 mr-1"></span>
-              14-day free trial
+              Unlimited document processing
             </div>
           </div>
           
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
                   ].map((item, i) => (
                     <div 
                       key={i} 
-                      className="bg-white rounded-lg p-4 shadow-lg text-center flex flex-col items-center gap-2"
+                      className="bg-white rounded-lg p-4 shadow-lg text-center flex flex-col items-center gap-2 hover:bg-purple-50 transition-all hover:scale-105"
                     >
                       {item.icon}
                       <h3 className="font-medium text-sm text-gray-800">{item.title}</h3>

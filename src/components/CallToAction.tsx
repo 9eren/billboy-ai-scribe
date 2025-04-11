@@ -17,12 +17,12 @@ const CallToAction: React.FC = () => {
           </h2>
           <p className="text-lg text-purple-100 mb-8">
             Join thousands of users who save hours each month by letting AI handle their bill data extraction.
-            Try BillBoy free for 14 days, no credit card required.
+            BillBoy is 100% free to use - start processing your bills today!
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link to="/signup">
+            <Link to="/scan">
               <Button className="bg-white text-purple-700 hover:bg-purple-100 px-8 py-6 rounded-lg font-medium text-lg">
-                Start Free Trial <ArrowRight className="ml-2 h-5 w-5" />
+                Start Using BillBoy <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
             <Link to="/demo">

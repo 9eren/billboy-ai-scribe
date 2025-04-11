@@ -1,6 +1,6 @@
 
 import React from "react";
-import { ScanText, FileText, FileUp, FileSparkles, Gauge, Lock } from "lucide-react";
+import { ScanText, FileText, FileUp, Sparkles, Gauge, Lock } from "lucide-react";
 
 const features = [
   {
@@ -19,7 +19,7 @@ const features = [
     description: "Process multiple bills at once, saving time and streamlining your workflow."
   },
   {
-    icon: <FileSparkles className="h-10 w-10 text-purple-600" />,
+    icon: <Sparkles className="h-10 w-10 text-purple-600" />,
     title: "Custom Templates",
     description: "Create your own templates with a user-friendly drag-and-drop interface tailored to your requirements."
   },

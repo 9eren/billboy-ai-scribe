@@ -13,7 +13,8 @@ import {
   Check, 
   AlertCircle,
   Loader2, 
-  PanelLeftOpen
+  PanelLeftOpen,
+  Plus
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { Link } from "react-router-dom";

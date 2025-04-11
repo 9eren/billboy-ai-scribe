@@ -17,7 +17,6 @@ const CallToAction: React.FC = () => {
           </h2>
           <p className="text-lg text-purple-100 mb-8">
             Join thousands of users who save hours each month by letting AI handle their bill data extraction.
-            BillBoy is 100% free to use - start processing your bills today!
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link to="/scan">

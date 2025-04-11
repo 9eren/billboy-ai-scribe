@@ -30,13 +30,6 @@ const Hero: React.FC = () => {
                 </Button>
               </Link>
             </div>
-            <div className="flex items-center text-sm text-gray-600">
-              <span className="inline-block h-1 w-1 rounded-full bg-purple-500 mr-1"></span>
-              100% Free - No credit card required
-              <span className="mx-3">•</span>
-              <span className="inline-block h-1 w-1 rounded-full bg-purple-500 mr-1"></span>
-              Unlimited document processing
-            </div>
           </div>
           
           <div className="relative animate-slide-in">

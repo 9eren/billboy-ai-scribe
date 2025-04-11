@@ -18,15 +18,10 @@ const CallToAction: React.FC = () => {
           <p className="text-lg text-purple-100 mb-8">
             Join thousands of users who save hours each month by letting AI handle their bill data extraction.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <div className="flex justify-center">
             <Link to="/scan">
               <Button className="bg-white text-purple-700 hover:bg-purple-100 px-8 py-6 rounded-lg font-medium text-lg">
                 Start Using BillBoy <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
-            <Link to="/demo">
-              <Button variant="outline" className="text-white border-purple-300 hover:bg-purple-700 px-8 py-6 rounded-lg font-medium text-lg">
-                Watch Demo
               </Button>
             </Link>
           </div>
